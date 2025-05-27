@@ -20,7 +20,7 @@ The following execution times were measured for a standard image convolution tas
 
 ### Execution Time Comparison
 
-![image1](image1)
+![results_comparison](https://github.com/user-attachments/assets/89c16505-0b4a-4677-870b-381e1a15455c)
 
 - **75% Faster with OpenMP**
 - **8 Threads:** 4 MPI Processes × 2 OpenMP Threads
