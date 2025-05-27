@@ -38,7 +38,7 @@ By combining OpenMP and MPI, the hybrid system achieves significant time savings
 Set the number of OpenMP threads and run with MPI:
 
 ```bash
-export OMP_NUM_THREADS=2
+set OMP_NUM_THREADS=2
 mpiexec -n 4 ./Parallel_Image_Convolution2.exe input.png output.png
 ```
 - This launches 4 MPI processes, each using 2 OpenMP threads, for a total of 8 threads.
